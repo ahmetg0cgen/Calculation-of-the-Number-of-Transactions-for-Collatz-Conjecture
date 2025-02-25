@@ -78,5 +78,20 @@ When the code is run:
 - The relationship with formulas can be coded in more detail and the formula structure can be analyzed in more detail.
 - Regression compatible codes can be developed for potential patterns in the created graphs.
 
+## 📄 References
+
+This project is based on the research presented in the paper:
+
+**"Calculation of the Number of Transactions for
+Collatz Conjecture"**  
+
+Author(s): Ahmet Furkan Gocgen and Emin Mert Buyukyayla
+
+Published in: Preprints, 2024  
+
+DOI: 10.20944/preprints202407.1312.v1
+
+The methods and theories in this paper have been implemented in this project.
+
 #### 📢 Contribute!
 If you would like to contribute to the project, you can open a pull request or share your suggestions.

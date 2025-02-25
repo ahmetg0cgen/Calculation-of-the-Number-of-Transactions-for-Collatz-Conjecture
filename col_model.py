@@ -1,9 +1,9 @@
 def is_power_of_two(n):
-    """Bir sayının 2'nin kuvveti olup olmadığını kontrol eder."""
+    """Checks whether a number is a power of 2."""
     return (n & (n - 1)) == 0
 
 def collatz(n):
-    """Collatz dizisini oluşturur."""
+    """Creates the Collatz array."""
     sequence = [n]
     
     while n != 1:
@@ -16,11 +16,11 @@ def collatz(n):
     return sequence
 
 def run_collatz_up_to(max_n):
-    """Bitiş değerine kadar olan 2'nin kuvveti olmayan çift sayılar için Collatz uygular."""
-    for n in range(2, max_n + 1, 2):  # Sadece çift sayılar
-        if not is_power_of_two(n):    # 2'nin kuvveti olmayanları seç
+    """Applies Collatz for even numbers that are not powers of 2 up to the end value."""
+    for n in range(2, max_n + 1, 2):  # Only even numbers
+        if not is_power_of_two(n):    # Choose those that are not powers of 2
             sequence = collatz(n)
             print(f"Collatz({n}): {sequence}")
 
-# Örnek Kullanım
+# Example Usage
 run_collatz_up_to(20)

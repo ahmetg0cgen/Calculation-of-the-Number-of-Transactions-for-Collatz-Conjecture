@@ -31,6 +31,8 @@ In this model:
 - A visualization is provided to show the number of steps required for each starting value to reach 1.
 - The results allow for an analysis of how the modified Collatz process behaves when excluding powers of 2.
 
+**The user must select the end value in the relevant codes in line with the analysis purpose!**
+
 ### 🌌 Theoretical Background
 #### 🔹 1. Basis of Collatz Conjecture
 

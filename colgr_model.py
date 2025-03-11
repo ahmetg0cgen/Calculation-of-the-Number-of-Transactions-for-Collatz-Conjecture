@@ -27,9 +27,9 @@ def visualize_collatz_steps(max_n):
 
     plt.figure(figsize=(10, 5))
     plt.scatter(numbers, steps, color='blue', alpha=0.7)
-    plt.xlabel("Başlangıç Sayısı")
-    plt.ylabel("1’e Ulaşmak İçin Adım Sayısı")
-    plt.title("2'nin Kuvveti Olmayan Çift Sayılar İçin Collatz Adım Sayıları")
+    plt.xlabel("Initial Number")
+    plt.ylabel("Number of Transactions to Reach 1")
+    plt.title("Collatz Operation Numbers for Even Numbers That Are Not Powers of 2")
     plt.grid(True)
     plt.show()
 
